@@ -1,0 +1,71 @@
+/*@font-face {
+  src: url(../bugslife.ttf);
+  font-family: 'Bugs Life';
+}*/
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Italiana', serif;
+}
+
+html {
+  font-size: 300%;
+
+}
+
+body {
+  font-family: 'Bugs Life';
+}
+
+#carousel {
+  height: 500px;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+#carousel-1 img, #carousel-2 img, #carousel-3 img {
+  width: 100vw;
+  /*height: 500px;*/
+}
+.carousel-caption{
+  /*position: relative;
+  bottom: 150px;*/
+  margin-left: auto;
+  margin-right: auto;
+  /*left: 20vw;*/
+}
+
+.nav {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2vw;
+
+}
+
+a {
+  padding: 1vw;
+}
+
+.wrapper h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+
+}
+
+.content img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.content {
+  width: 46vw;
+  float: left;
+  margin: 1.5vw;
+}

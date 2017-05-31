@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src=js/jquery-3.2.1.js></script>
+    <script type="text/javascript" src=js/bootstrap.js></script>
+    <script type="text/javascript" src=js/scripts.js></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Carousel</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav">
+        <a href="#">After</a>
+        <a href="#">Now</a>
+        <a href="#">Before</a>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <h1>This is the Title</h1>
+    </div>
+
+
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox" >
+          <div class="item active" id="carousel-1">
+            <img src="img/fiona.jpg" alt="image1" class="img-responsive">
+            <div class="carousel-caption">
+              <h4>Fiona still has no teeth</h4>
+              <p>something</p>
+            </div>
+          </div>
+          <div class="item" id="carousel-2">
+            <img src="img/tamale.jpg" alt="image2" class="img-responsive">
+            <div class="carousel-caption">
+              <h4>Best Restaurant in Portland</h4>
+              <p>other things</p>
+            </div>
+          </div>
+          <div class="item" id="carousel-3">
+            <img src="img/hiking.jpg" alt="image3" class="img-responsive">
+            <div class="carousel-caption">
+              <h4>Best Hiking in Portland 2017</h4>
+              <p>other things</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="container-one" id="articles">
+        <div class="content">
+          <img src="img/hiking.jpg" alt="hiking">
+          <div class="content-text">
+            <h4>Best Hiking in Portland 2017</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div class="content">
+          <img src="img/tamale.jpg" alt="a tamale">
+          <div class="content-text">
+            <h4>Best Restaurant in Portland</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
